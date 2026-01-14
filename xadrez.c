@@ -57,12 +57,28 @@ int main() {
 
     //RAINHA 8 casas para esquerda
     //Estrutura: For
-    int casasRainha = 8;
+    
     printf("Movimento da Rainha: \n");
+    int casasRainha = 8;
     for (int i = 0; i < casasRainha; i++)
     {
         printf("Esquerda\n");
     }
+
+    //CAVALO
+    printf("\nMovimento do Cavalo:\n");
+    int cavalo = 1;
+
+    while (cavalo--)
+    {
+        for (int i = 1; i <= 2; i++)
+        {
+            printf("Cima, ");
+        }
+        printf("Direita\n");
+    }
+    
+    
 
     return 0;
 }
